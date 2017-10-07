@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mahlabs.l8retainedfragment.MainActivity" >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="mahlabs.l8retainedfragment.MainFragment"
+        android:id="@+id/fragment"
+        android:layout_gravity="center_horizontal"
+        tools:layout="@layout/fragment_main" />
+</LinearLayout>
